@@ -4,17 +4,13 @@ This research is dedicated to using Sparse Autoencoders to investigate how inter
 ## Project structure
 
 ```text
-scripts/
-  python/
-    gemma.py             Gemma model-loading placeholder
-  cpp/
-    include/             Future CUDA kernel headers
-    src/                 Future CUDA kernel sources
-models/
-  sae_schema.py          SAE schema placeholder
+scripts/                 Experiment and workflow scripts
+models/                  Model-related code and assets
 Figures/                 Generated figures
 build_tools/
   Hipergator/            HiPerGator-specific build and run tools
   Local/                 Local build and run tools
 utils/                   Shared utilities
 ```
+
+
